@@ -21,7 +21,7 @@ import PrestoDOM.Util (render, updateState)
 import Ringsmove
 
 foreign import getRand :: Int -> Int -> Int
-foreign import getRandWithEff ::forall eff. Int -> Int -> Eff eff Int
+
 drawmissiles :: forall i p . Missile -> PrestoDOM i p
 drawmissiles mis =
           imageView
